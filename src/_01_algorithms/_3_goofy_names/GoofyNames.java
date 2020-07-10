@@ -28,8 +28,11 @@ public class GoofyNames {
 			//    and lower case for ODD characters.
 			for (int z = 0; z < goofyName.length(); z++) {
 			if (z % 2 == 0) {
-				//System.out.println(goofyName.charAt());
+				System.out.println(Character.toUpperCase(goofyName.charAt(z)));
 				
+			}
+			else {
+				System.out.println(goofyName.charAt(z));
 			}
 			}
 			
